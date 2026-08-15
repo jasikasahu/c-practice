@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char fname[20], mname[20], lname[20]; // first, middle, last name
+
+    printf("Enter full name (first middle last): ");
+    scanf("%19s %19s %19s", fname, mname, lname);
+
+    printf("Abbreviated name: ");
+    printf("%c. %c. %s\n", fname[0], mname[0], lname);
+
+    return 0;
+}
